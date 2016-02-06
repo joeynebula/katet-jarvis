@@ -28,6 +28,7 @@ Lita.configure do |config|
   config.redis[:url] = ENV["REDISTOGO_URL"]
   # config.redis.port = 1234
   config.http.port = ENV["PORT"]
+  config.handlers.keepalive.url = "http://katet-jarvis.herokuapp.com"
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.

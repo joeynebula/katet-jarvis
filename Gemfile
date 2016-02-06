@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gem "lita"
 gem "lita-slack"
+gem "lita-ai"
+gem 'lita-keepalive', '~> 0.0.2'
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
