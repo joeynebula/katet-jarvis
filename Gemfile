@@ -5,6 +5,8 @@ gem "lita-slack"
 gem "lita-ai"
 gem 'lita-keepalive', '~> 0.0.2'
 gem "lita-abuse"
+gem "lita-applause"
+gem "lita-boardgamegeek"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
