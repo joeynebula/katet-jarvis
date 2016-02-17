@@ -1,6 +1,6 @@
 module Lita
   module Handlers
-    class agreeable < Handler
+    class Agreeable < Handler
       # insert handler code here
       route(/^agree|agreeable\s+/,:agree, command: false)
 
