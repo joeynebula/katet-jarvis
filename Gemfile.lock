@@ -47,6 +47,8 @@ GEM
     lita-boardgamegeek (0.1.1)
       bgg-api (= 0.0.2)
       lita (>= 4.3)
+    lita-giphy (1.0.4)
+      lita (>= 2.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
     lita-slack (1.7.2)
@@ -90,6 +92,7 @@ DEPENDENCIES
   lita-ai
   lita-applause
   lita-boardgamegeek
+  lita-giphy
   lita-keepalive (~> 0.0.2)
   lita-slack
 
