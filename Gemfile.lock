@@ -42,6 +42,8 @@ GEM
     lita-ai (0.1.0)
       clever-api (~> 0.0.2)
       lita (>= 4.6)
+    lita-ambush (1.0.3)
+      lita (>= 4.2)
     lita-applause (0.0.2)
       lita (>= 4.0)
     lita-boardgamegeek (0.1.1)
@@ -49,6 +51,8 @@ GEM
       lita (>= 4.3)
     lita-giphy (1.0.4)
       lita (>= 2.0)
+    lita-karma (3.0.2)
+      lita (>= 4.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
     lita-slack (1.7.2)
@@ -90,9 +94,11 @@ DEPENDENCIES
   lita
   lita-abuse
   lita-ai
+  lita-ambush
   lita-applause
   lita-boardgamegeek
   lita-giphy
+  lita-karma
   lita-keepalive (~> 0.0.2)
   lita-slack
 
