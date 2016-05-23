@@ -8,6 +8,8 @@ gem "lita-abuse"
 gem "lita-applause"
 gem "lita-boardgamegeek"
 gem "lita-giphy"
+gem "lita-ambush"
+gem "lita-karma"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
