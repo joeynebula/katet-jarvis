@@ -49,12 +49,16 @@ GEM
     lita-boardgamegeek (0.1.1)
       bgg-api (= 0.0.2)
       lita (>= 4.3)
+    lita-doge (0.1.0)
+      lita (>= 4.7)
     lita-giphy (1.0.4)
       lita (>= 2.0)
     lita-karma (3.0.2)
       lita (>= 4.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
+    lita-meme (0.2.3)
+      lita (>= 4.4)
     lita-slack (1.7.2)
       eventmachine
       faraday
@@ -97,10 +101,12 @@ DEPENDENCIES
   lita-ambush
   lita-applause
   lita-boardgamegeek
+  lita-doge
   lita-giphy
   lita-karma
   lita-keepalive (~> 0.0.2)
+  lita-meme
   lita-slack
 
 BUNDLED WITH
-   1.10.6
+   1.14.6

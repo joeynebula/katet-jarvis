@@ -1,7 +1,9 @@
 require "./agreeable.rb"
 Lita.configure do |config|
   # The name your robot will use.
-  config.robot.name = "Lita"
+  config.robot.name = "Jarvis"
+
+  config.robot.locale = 'en-US'
 
   # The locale code for the language to use.
   # config.robot.locale = :en
@@ -33,6 +35,9 @@ Lita.configure do |config|
 
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC"
   config.handlers.giphy.rating = 'r'
+
+  # wow such config, much environment
+  config.handlers.doge.default_words = ['smart', 'interesting']
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
