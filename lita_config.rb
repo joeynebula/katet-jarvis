@@ -35,7 +35,8 @@ Lita.configure do |config|
 
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC"
   config.handlers.giphy.rating = 'r'
-
+  config.handlers.hashtag.google_cse_id = '017244036210405838752:0zwggoyvykk'
+  config.handlers.hashtag.google_cse_key = 'AIzaSyDc7FHXBVXc-1PEsz87JWen2LyMkOeO-54'
   # wow such config, much environment
   config.handlers.doge.default_words = ['smart', 'interesting']
 
