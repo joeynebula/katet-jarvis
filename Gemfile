@@ -12,6 +12,7 @@ gem "lita-ambush"
 gem "lita-karma"
 gem "lita-doge"
 gem "lita-meme"
+gem "lita-hashtag"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"

@@ -53,6 +53,8 @@ GEM
       lita (>= 4.7)
     lita-giphy (1.0.4)
       lita (>= 2.0)
+    lita-hashtag (0.2.0)
+      lita (>= 4.1)
     lita-karma (3.0.2)
       lita (>= 4.0)
     lita-keepalive (0.0.2)
@@ -103,6 +105,7 @@ DEPENDENCIES
   lita-boardgamegeek
   lita-doge
   lita-giphy
+  lita-hashtag
   lita-karma
   lita-keepalive (~> 0.0.2)
   lita-meme
